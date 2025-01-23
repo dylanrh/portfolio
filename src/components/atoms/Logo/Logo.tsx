@@ -1,6 +1,7 @@
 'use client';
 
 import Jacob from './jacob-herper.png';
+import Dylan from './dylan_kodak.png';
 
 import { motion } from 'framer-motion';
 import Image from 'next/image';
@@ -19,20 +20,20 @@ const Logo = ({ hideName }: LogoProps) => {
 				initial={{ opacity: 0, y: -10 }}
 			>
 				<Image
-					src={Jacob}
+					src={Dylan}
 					width={48}
 					height={48}
 					quality={100}
-					alt="Vectorised image of Jacob Herper"
+					alt="Vectorised image of Dylan Hensel"
 					className="h-12 w-12"
 				/>
 				{!hideName && (
 					<>
 						<span className="opacity-100 transition duration-300 group-hover:opacity-0">
-							@jakeherp
+							@dylanhensel
 						</span>
 						<span className="absolute left-16 from-blue-400 to-blue-700 opacity-0 transition duration-300 group-hover:bg-gradient-to-r group-hover:bg-clip-text group-hover:text-transparent group-hover:opacity-100">
-							Jacob Herper
+							Dylan Hensel
 						</span>
 					</>
 				)}
