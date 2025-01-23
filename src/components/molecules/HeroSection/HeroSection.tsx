@@ -33,15 +33,14 @@ export const HeroSection = () => {
 					</h1>
 					<div className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
 						<p className="text-lg leading-8 text-slate-600 dark:text-off-white">
-							I am a passionate Software Engineer, specialised in front-end
-							development using React and TypeScript. As an advocate for web
-							performance and accessibility and an evangelist for the Jamstack,
-							I create amazing web applications to make the internet a better
-							place.
+							I am a Software Engineer with a drive to serve people and the
+							world. I like to work on tech that positievely impacts society our
+							planet. I advocate for conscious and responsible technology to
+							help all, making the internet and the world a better place.
 							<br />
 							You can talk to me about <TypeWriter strings={talkAbout} />.
 						</p>
-						<p className="text-lg leading-8 text-slate-600 dark:text-off-white">
+						{/* <p className="text-lg leading-8 text-slate-600 dark:text-off-white">
 							P.S. this website is open-source and available on{' '}
 							<a
 								href="https://github.com/jakeherp/portfolio"
@@ -53,7 +52,7 @@ export const HeroSection = () => {
 								Github
 							</a>
 							.
-						</p>
+						</p> */}
 						<div className="mt-10 flex items-center gap-x-6">
 							<Link
 								href="/contact"
@@ -70,8 +69,8 @@ export const HeroSection = () => {
 						</div>
 					</div>
 					<Image
-						src="/assets/jacob.jpg"
-						alt="Photo of Jacob Herper"
+						src="/assets/dylanhensel_beach_dog.jpeg"
+						alt="Photo of Dylan Hensel"
 						height={300}
 						width={450}
 						loading="eager"

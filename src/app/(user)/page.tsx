@@ -25,20 +25,29 @@ const getData = async () => {
 };
 
 export const metadata = {
-	title: 'Software Engineer and Consultant Jacob Herper',
+	title: 'Dylan Hensel',
 	description:
-		'A Front-End Software Engineer with a focus on JavaScript and React. I have more than 10 years experience working in software engineering and consulting.',
+		'A Full Stack Software Engineer with a focus on TypeScript and React. I have more than 10 years experience working in software engineering and consulting.',
 	keywords: [
 		'Software Engineer',
-		'Jacob Herper',
+		'Dylan Hensel',
 		'Software Consulting',
 		'Front-End',
+		'Back-End',
 		'Full-Stack',
 		'React',
 		'TypeScript',
 		'JavaScript',
 		'GraphQL',
-		'CSS',
+		'Node.js',
+		'Express',
+		'Next.js',
+		'Nest.js',
+		'TypeORM',
+		'PostgreSQL',
+		'MySQL',
+		'MongoDB',
+		'GCP',
 		'Tailwind',
 	],
 };
