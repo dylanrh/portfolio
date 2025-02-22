@@ -18,9 +18,9 @@ import Link from 'next/link';
 
 export const metadata = {
 	title:
-		'About Jacob Herper, a Lead Software Engineer and Consultant in the UK',
+		'About Dylan Hensel. Senior Software Engineer and Engineering Manager in LA. ',
 	description:
-		'As a passionate front-end software developer, I create amazing websites and web apps to make the internet a better place.',
+		'Dylan Hensel is a Senior Software Engineer in LA. She is a passionate about contributing postive changes to the technology landscape throughout the internet.',
 };
 
 const getData = async () => {
@@ -45,35 +45,95 @@ const AboutPage = async () => {
 					Hey, I&apos;m Dylan Hensel
 				</h1>
 				<h2 className="mt-2 text-xl font-bold md:text-2xl">
-					Senior Software Engineer in LA
+					Senior Software Engineer, Engineering Manager, and Systems Architect
 				</h2>
 				<p className="mt-8">
-					As a passionate front-end developer, I create amazing websites and web
-					apps to make the internet a better place. I am an advocate for web
-					performance and accessibility as well as a JAMstack enthusiast with
-					experience in serverless technologies.
+					I am passionate about building scalable, high-performance
+					applications. With years of experience in backend and full-stack
+					development, I specialize in designing and optimizing complex systems,
+					ensuring security, efficiency, and maintainability across distributed
+					infrastructures.
 				</p>
 				<p className="my-4">
-					I am &radic;1,024 years old and have been a web developer for as long
-					as I can think. The technologies I work with are JavaScript, HTML and
-					CSS with a focus on the frameworks React.js, Gatsby, Next.js, Node and
-					Express. I use code not only to do my day-to-day job, but also to
-					solve everyday problems I come across.
+					Most recently, I lead engineering teams at FanFix, where I manage
+					cross-functional development efforts across multiple monorepos,
+					improve security protocols, and drive strategic technical decisions.
+					My expertise lies in backend architecture, cloud computing, security
+					enhancements, and automation, leveraging technologies like Nest.js,
+					Node.js, TypeORM, GraphQL, Docker, Kubernetes, and Google Cloud
+					Platform to optimize application performance and scalability.
 				</p>
 				<p>
-					When I am not writing code I love to spend time with my wife and
-					five-year-old daughter at home in England or travelling around the
-					world. We are quite a multi-cultural family with me having grown up in
-					Germany 🇩🇪 and my wife being from Mexico 🇲🇽, which is why we raise our
-					daughter trilingual. I myself speak five languages (some better than
-					others). Furthermore I enjoy cooking fresh food when I come home after
-					a long day at the office.
+					Over the years, I’ve been instrumental in transitioning monolithic
+					applications to microservices architectures, implementing dynamic
+					cloud scaling, and ensuring PCI compliance and DDoS protection through
+					advanced security measures. My work also involves automating
+					workflows, CI/CD pipelines, and testing processes to enhance developer
+					efficiency and code quality. I have extensive experience integrating
+					OAuth authentication, database optimization (SQL & NoSQL), and API
+					development, ensuring robust and high-availability systems.
 				</p>
-				<h2 className="headline mb-4 mt-12 text-4xl">Podcasts I enjoy</h2>
+				<p className="mt-8">
+					Before stepping into leadership, I honed my skills across industries
+					ranging from media and entertainment to fintech and SaaS, gaining
+					hands-on experience with Ruby on Rails, PostgreSQL, Python, C#, and
+					AWS. I’ve built everything from developer tools and real-time
+					collaborative applications to high-traffic consumer platforms that
+					serve millions of users.
+				</p>
+				<h2 className="headline mb-4 mt-12 text-4xl">Beyond Engineering</h2>
 
-				<PodcastList podcasts={podcasts} />
+				{/* <PodcastList podcasts={podcasts} /> */}
+				<p className="mt-4">
+					Outside of tech, I’m a passionate supporter of the arts, live music,
+					and community-driven initiatives. I believe that creativity and
+					technology go hand in hand, and I actively engage in projects that
+					merge the two. Whether it's supporting local musicians and artists,
+					attending live performances, or collaborating on creative projects in
+					film production and music theory, I find inspiration in the
+					intersection of art and technology.
+				</p>
+				<p className="mt-4">
+					I also dedicate time to community service and mentorship, working
+					closely with charities like{' '}
+					<a
+						href="https://audai.org"
+						target="_blank"
+						style={{ color: '#4F46E5' }}
+					>
+						Audai.org
+					</a>{' '}
+					, which focuses on social impact through technology, and{' '}
+					<a
+						href="https://pawsforlifek9.org/"
+						target="_blank"
+						style={{ color: '#4F46E5' }}
+					>
+						Paws4Life
+					</a>
+					, an organization dedicated to rescuing and rehabilitating shelter
+					animals. Giving back is important to me, whether through mentoring
+					aspiring developers, volunteering, supporting grassroots
+					organizations, or working on tech-for-good initiatives that create
+					meaningful change.
+				</p>
+				<p className="mt-4">
+					Beyond that, I have a deep personal commitment to fitness, martial
+					arts (Krav Maga), bodybuilding, and personal training. I thrive on
+					discipline and continuous growth, whether it's pushing limits in the
+					gym, learning new self-defense techniques, or cultivating my garden as
+					a meditative escape from the fast-paced world of engineering.
+				</p>
+				<p className="mt-4">
+					At the end of the day, I’m always looking to connect with people who
+					share a passion for innovation, creativity, and making a difference.
+					Whether you’re looking to collaborate on a tech project, discuss
+					emerging trends in software development, or just share insights on
+					music, film, or community work, I’d love to chat.
+				</p>
+				<p className="mt-4">Let’s build something impactful together!</p>
 
-				<h2 className="headline mb-4 mt-12 text-4xl">Experience</h2>
+				{/* <h2 className="headline mb-4 mt-12 text-4xl">Experience</h2>
 
 				<WorkExperience jobs={jobs} />
 
@@ -83,7 +143,7 @@ const AboutPage = async () => {
 					certifications I have achieved:
 				</p>
 
-				<Education education={education} />
+				<Education education={education} /> */}
 
 				<section id="cv-download">
 					<h2 className="headline mb-4 mt-12 text-4xl">
@@ -92,9 +152,7 @@ const AboutPage = async () => {
 
 					<p>
 						I am happy to have a chat about relevant projects to work on. Below
-						you find a download link for my up-to-date CV. Are you a recruiter?
-						Have a read through my recruiters page, where I explain what I am
-						looking for in a job. This page is designed to save both of us time.
+						you find a download link for my up-to-date CV.
 					</p>
 					<p>
 						If you are interested in working with me, please contact me via{' '}
@@ -104,8 +162,7 @@ const AboutPage = async () => {
 						>
 							the contact form
 						</Link>
-						. I do not appreciate cold calls and will not answer calls from
-						numbers I do not recognise.
+						.
 					</p>
 
 					<div className="mt-8 flex items-baseline justify-start gap-6">
@@ -118,12 +175,12 @@ const AboutPage = async () => {
 							Download my CV
 						</Button>
 
-						<Link
+						{/* <Link
 							href="/recruiters"
 							className="text-sm font-semibold leading-6 text-slate-900 transition-all hover:text-slate-600 dark:text-slate-400 dark:hover:text-slate-200"
 						>
 							Information for recruiters <span aria-hidden="true">→</span>
-						</Link>
+						</Link> */}
 					</div>
 				</section>
 			</Container>
