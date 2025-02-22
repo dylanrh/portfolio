@@ -14,40 +14,40 @@ const Footer = () => {
 		<footer className="mt-8 py-8 md:mt-20">
 			<Container className="flex flex-col-reverse gap-4 md:flex-row md:justify-between">
 				<span className="text-center md:text-left">
-					&copy; {new Date().getFullYear()} Jacob Herper
+					&copy; {new Date().getFullYear()} Dylan Hensel
 				</span>
 				<SocialIcons
 					profiles={[
 						{
 							name: 'Github',
-							url: 'https://www.github.com/jakeherp',
+							url: 'https://github.com/dylanrh',
 							icon: <IconGithub />,
 						},
 						{
 							name: 'LinkedIn',
-							url: 'https://www.linkedin.com/in/jacobherper',
+							url: 'https://www.linkedin.com/in/dylanhensel',
 							icon: <IconLinkedin />,
 						},
 						{
 							name: 'Instagram',
-							url: 'https://www.instagram.com/jakeherp',
+							url: 'https://www.instagram.com/dylanhensel',
 							icon: <IconInstagram />,
 						},
-						{
-							name: 'X.com',
-							url: 'https://twitter.com/jakeherp',
-							icon: <IconX />,
-						},
-						{
-							name: 'Threads',
-							url: 'https://www.threads.net/@jakeherp',
-							icon: <IconThreads />,
-						},
-						{
-							name: 'Bluesky Social',
-							url: 'https://bsky.app/profile/jakeherp.com',
-							icon: <IconBsky />,
-						},
+						// {
+						// 	name: 'X.com',
+						// 	url: 'https://twitter.com/jakeherp',
+						// 	icon: <IconX />,
+						// },
+						// {
+						// 	name: 'Threads',
+						// 	url: 'https://www.threads.net/@jakeherp',
+						// 	icon: <IconThreads />,
+						// },
+						// {
+						// 	name: 'Bluesky Social',
+						// 	url: 'https://bsky.app/profile/jakeherp.com',
+						// 	icon: <IconBsky />,
+						// },
 					]}
 					className="justify-center md:justify-end"
 				/>
