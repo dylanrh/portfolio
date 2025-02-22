@@ -117,7 +117,7 @@ export const ContactForm = () => {
 									Something went wrong, please try again!
 								</div>
 							)}
-							{isRecruiter ? (
+							{/* {isRecruiter ? (
 								<p className="font-bold text-red-600">
 									Please visit the{' '}
 									<Link href="/recruiters" className="underline">
@@ -125,34 +125,32 @@ export const ContactForm = () => {
 									</Link>{' '}
 									for more information and a sign up form.
 								</p>
-							) : (
-								<>
-									<Input label="First Name" placeholder="John" id="firstName" />
-									<Input label="Last Name" placeholder="Doe" id="lastName" />
-									<Input label="Company" id="company" />
-									<Input
-										label="Email Address"
-										placeholder="johndoe@gmail.com"
-										id="email"
-										type="email"
-									/>
-									<Select label="Subject" id="subject" options={subjects} />
+							) : ( */}
+							<>
+								<Input label="First Name" placeholder="John" id="firstName" />
+								<Input label="Last Name" placeholder="Doe" id="lastName" />
+								<Input label="Company" id="company" />
+								<Input
+									label="Email Address"
+									placeholder="johndoe@gmail.com"
+									id="email"
+									type="email"
+								/>
+								<Select label="Subject" id="subject" options={subjects} />
 
-									<TextArea label="Message" id="message" />
+								<TextArea label="Message" id="message" />
 
-									<div className="mt-6">
-										<Button
-											type="submit"
-											disabled={
-												isSubmitting || isRecruiter || !canSubmit(cookie)
-											}
-											className="group"
-										>
-											{isSubmitting ? 'Loading ...' : 'Send Message'}
-										</Button>
-									</div>
-								</>
-							)}
+								<div className="mt-6">
+									<Button
+										type="submit"
+										disabled={isSubmitting || isRecruiter || !canSubmit(cookie)}
+										className="group"
+									>
+										{isSubmitting ? 'Loading ...' : 'Send Message'}
+									</Button>
+								</div>
+							</>
+							{/* )} */}
 						</Box>
 					</Form>
 				);
