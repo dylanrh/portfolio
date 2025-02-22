@@ -27,7 +27,7 @@ const getData = async () => {
 export const metadata = {
 	title: 'Dylan Hensel',
 	description:
-		'A Full Stack Software Engineer with a focus on TypeScript and React. I have more than 10 years experience working in software engineering and consulting.',
+		'A Full Stack Software Engineer with a focus on TypeScript, systems architecture, and UX. I have many years of experience working in software engineering and consulting.',
 	keywords: [
 		'Software Engineer',
 		'Dylan Hensel',

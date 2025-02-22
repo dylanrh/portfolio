@@ -2,6 +2,7 @@ import { AnimatePage } from '@components/atoms/AnimatePage';
 import { Button } from '@components/atoms/Button';
 import { Container } from '@components/atoms/Container';
 import { IconDownload } from '@components/atoms/Icons';
+// will be charities Audai and Paws4Life
 import { PodcastList } from '@components/molecules/PodcastList';
 import { Education } from '@components/organisms/Education';
 import { WorkExperience } from '@components/organisms/WorkExperience';
@@ -41,10 +42,10 @@ const AboutPage = async () => {
 		<AnimatePage>
 			<Container>
 				<h1 className="headline mt-8 text-3xl md:text-5xl lg:text-6xl">
-					Hey, I&apos;m Jacob Herper
+					Hey, I&apos;m Dylan Hensel
 				</h1>
 				<h2 className="mt-2 text-xl font-bold md:text-2xl">
-					Lead Software Engineer from the UK
+					Senior Software Engineer in LA
 				</h2>
 				<p className="mt-8">
 					As a passionate front-end developer, I create amazing websites and web
