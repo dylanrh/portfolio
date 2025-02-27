@@ -26,10 +26,10 @@ export const navItems = [
 	// 	href: '/case-studies',
 	// 	title: 'Case Studies',
 	// },
-	{
-		href: '/blog',
-		title: 'Blog',
-	},
+	// {
+	// 	href: '/blog',
+	// 	title: 'Blog',
+	// },
 	{
 		href: '/contact',
 		title: 'Contact',

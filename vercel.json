@@ -4,8 +4,8 @@
 		{ "source": "/portfolio/:path", "destination": "/case-studies" },
 		{
 			"source": "/",
-			"has": [{ "type": "host", "value": "cv.jacobherper.com" }],
-			"destination": "/cv-2024.pdf"
+			"has": [{ "type": "host", "value": "cv.dhensel.com" }],
+			"destination": "/DHensel_2025_web.pdf"
 		}
 	]
 }

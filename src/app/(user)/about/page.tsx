@@ -167,7 +167,7 @@ const AboutPage = async () => {
 
 					<div className="mt-8 flex items-baseline justify-start gap-6">
 						<Button
-							href="/cv-2024.pdf"
+							href="/DHensel_2025_web.pdf"
 							className="group flex gap-2 whitespace-nowrap"
 							download
 						>
