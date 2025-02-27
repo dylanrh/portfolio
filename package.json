@@ -38,7 +38,7 @@
 		"@sanity/image-url": "^1.0.2",
 		"@sanity/orderable-document-list": "^1.1.0",
 		"@sanity/vision": "^3.15.1",
-		"@sentry/nextjs": "^7.64.0",
+		"@sentry/nextjs": "^9.2.0",
 		"@svgr/webpack": "^8.1.0",
 		"@types/node": "20.5.7",
 		"@types/react": "18.2.21",
