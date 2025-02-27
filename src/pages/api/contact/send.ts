@@ -34,7 +34,7 @@ const contactHandler = async (req: NextApiRequest, res: NextApiResponse) => {
 					from: `${firstName} ${lastName}${
 						company ? `(${company})` : ''
 					} <dylan@hensel.com>`,
-					to: 'dylan@henel.com',
+					to: 'dylan@hensel.com',
 					replyTo: email,
 					subject: `Website Contact: ${subject} (Ticket ${ticketNumber})`,
 					text: message,
