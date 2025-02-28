@@ -15,22 +15,22 @@ const getData = async () => {
 };
 
 export const metadata = {
-	title: 'Jacob Herper uses ...',
+	title: 'Dylan Hensel uses ...',
 	description:
-		'This is a comprehensive list of tech equipment and software I use for my day-to-day work as a software engineer in the UK.',
+		'This is a comprehensive list of tech equipment and software I use for my day-to-day work as a software engineer.',
 };
 
 const UsesPage = async () => {
-	const page = await getData();
+	// const page = await getData();
 
-	return (
-		<AnimatePage>
-			<Container>
-				<h1 className="headline mt-8 text-3xl md:text-5xl lg:text-6xl">Uses</h1>
-				<ContentBlock value={page.body} />
-			</Container>
-		</AnimatePage>
-	);
+	// return (
+	// 	<AnimatePage>
+	// 		<Container>
+	// 			<h1 className="headline mt-8 text-3xl md:text-5xl lg:text-6xl">Uses</h1>
+	// 			<ContentBlock value={page.body} />
+	// 		</Container>
+	// 	</AnimatePage>
+	// );
 };
 
 export default UsesPage;
